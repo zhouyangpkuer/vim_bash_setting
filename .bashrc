@@ -9,3 +9,6 @@ export ZU=172.28.229.202
 
 # For byubo color scheme compatible with vim solarized
 export TERM=screen-256color-bce
+
+# For shell prompt setting
+export PS1="[\u@\h:\W ] $ "
