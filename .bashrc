@@ -115,6 +115,11 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# for dpdk setting
 export RTE_SDK=/home/bright/tools/dpdk-stable-16.07.2
 export RTE_TARGET=x86_64-native-linuxapp-gcc
+
+
+# for byubo color scheme compatible with vim solorized
 export TERM=screen-256color-bce
