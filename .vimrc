@@ -1,5 +1,5 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Part of this confid came from 
+" => Part of this config came from 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " https://github.com/amix/vimrc
 
