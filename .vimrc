@@ -122,6 +122,10 @@ endif
 "Always show current position
 set ruler
 
+"Always hightlight the current row and column
+set cursorline
+set cursorcolumn
+
 " Height of the command bar
 set cmdheight=2
 
