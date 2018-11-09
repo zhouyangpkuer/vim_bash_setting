@@ -8,7 +8,25 @@
 
 `:PluginInstall`
 
+## How to install YCM: 
+
+### On Linux: 
+* Follow https://github.com/yangyangwithgnu/use_vim_as_ide. 
+* Add `let g:ycm_server_python_interpreter='/usr/bin/python'` to .vimrc
+
+### On MacOS: 
+* Haven't succeeded yet :)
+
 ## Some hits: 
 
 1. <leader>cc: comment one line or the selected text in the visual mode
-1. <leader>i: turn off/on visualized indent 
+1. <leader>i: turn off/on visualized indent
+1. u: cancel, ctr + r: cancel last u
+1. Uninstall plugin through Vundle: 
+    * delete the line for that plugin; 
+    * then run `:BundleClean`
+1. NerdTree: 
+    * shift + c: zoom into select folder
+    * u: zoom out to root folder
+    * m: folder operations, ESC: exit fold operations mode
+
