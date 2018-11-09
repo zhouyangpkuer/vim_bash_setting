@@ -29,4 +29,6 @@
     * shift + c: zoom into select folder
     * u: zoom out to root folder
     * m: folder operations, ESC: exit fold operations mode
+    * i: open new vertical tab for selected file
+    * s: open new horizonal tab for selected file
 
