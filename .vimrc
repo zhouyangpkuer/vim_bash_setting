@@ -524,3 +524,6 @@ autocmd VimEnter * NERDTree
 syntax enable
 set background=dark
 colorscheme solarized
+
+" for paste mode and non-paste mode
+set pastetoggle=<F10>
