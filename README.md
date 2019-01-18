@@ -37,3 +37,5 @@
     * ctrl + o/t: jump back
 1. Tagbar: 
     * F9: show tagbar
+1. Vim: 
+    * :tabe xx.file: open a new tab for this file
