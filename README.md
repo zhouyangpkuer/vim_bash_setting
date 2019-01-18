@@ -31,4 +31,9 @@
     * m: folder operations, ESC: exit fold operations mode
     * i: open new vertical tab for selected file
     * s: open new horizonal tab for selected file
-
+1. Ctags: 
+    * ctags -R . : generate tags file
+    * ctrl + ]: jump to definition
+    * ctrl + o/t: jump back
+1. Tagbar: 
+    * F9: show tagbar
