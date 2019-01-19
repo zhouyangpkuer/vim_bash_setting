@@ -73,7 +73,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 " for tagbar
-nmap <F9> :TagbarToggle<CR>
+nmap <F10> :TagbarToggle<CR>
 " 启动时自动focus
 let g:tagbar_autofocus = 1
 "let g:tagbar_width = 50
