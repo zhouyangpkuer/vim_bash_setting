@@ -28,6 +28,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'majutsushi/tagbar'
 " Plugin 'Valloric/YouCompleteMe'
 
 " The following are examples of different formats supported.
@@ -71,6 +72,14 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+" for tagbar
+nmap <F9> :TagbarToggle<CR>
+" 启动时自动focus
+let g:tagbar_autofocus = 1
+"let g:tagbar_width = 50
+
+
+
 
 " for YCM
 
@@ -105,7 +114,7 @@ let g:ycm_seed_identifiers_with_syntax=1
 " for nerdtree
 " show hidden files in nerdtree
 let NERDTreeShowHidden=1
-
+let g:NERDTreeWinSize=35
 
 " for nerdindent
 
