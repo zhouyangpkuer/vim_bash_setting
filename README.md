@@ -31,6 +31,8 @@
     * m: folder operations, ESC: exit fold operations mode
     * i: open new vertical tab for selected file
     * s: open new horizonal tab for selected file
+    * r: refresh current directory
+    * R: refresh root directory
 1. Ctags: 
     * ctags -R . : generate tags file
     * ctrl + ]: jump to definition
