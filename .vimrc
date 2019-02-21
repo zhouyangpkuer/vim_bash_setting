@@ -517,7 +517,7 @@ noremap <C-L> <Esc>:tabnext<CR>
 noremap <C-H> <Esc>:tabprevious<CR>
 "noremap <C-]> <C-w><C-]><C-w>T
 "nnoremap <C-]> :execute "vertical ptag " . expand("<cword>")<CR>
-map <C-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+"map <C-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
