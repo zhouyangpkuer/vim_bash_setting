@@ -41,3 +41,9 @@
     * F9: show tagbar
 1. Vim: 
     * :tabe xx.file: open a new tab for this file
+    * :dd: delete one line
+    * :yy: copy one line
+    * :$: move to line end
+    * :^: move to line start
+    * :w: move to word end
+    * :b: move to word start
