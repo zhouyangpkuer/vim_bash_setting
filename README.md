@@ -17,6 +17,9 @@
 ### On MacOS: 
 * Haven't succeeded yet :)
 
+## How to install neocomplete.vim
+* make sure you have installed vim-nox, vim-gtk, vim-gnome, vim-athena packages.  
+
 ## Some hits: 
 
 1. <leader>cc: comment one line or the selected text in the visual mode
