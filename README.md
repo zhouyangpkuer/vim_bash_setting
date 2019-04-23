@@ -32,8 +32,12 @@
     * ,cc: comment one line or the selected text in the visual mode
     * ,cu: uncomment one line or the selected text in the visual mode
 1. Vim-Airline:
-    * ctrl + N: next buffer
-    * ctrl + P: previous buffer
+    * ctrl + n: next buffer
+    * ctrl + m: previous buffer
+1. Ctrlp.vim:
+    * ctrl + p: search
+    * Esc: exit search mode
+    * ctrl + t: new tab for the selected file 
 1. Vim: 
     * ctrl + w + w/h/j/k/l: jump among windows
     * gt and gT: tab switch 

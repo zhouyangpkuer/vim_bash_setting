@@ -33,6 +33,7 @@ Plugin 'Shougo/neocomplete.vim'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'bling/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'kien/ctrlp.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -75,6 +76,13 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+
+" for ctrip
+let g:ctrlp_map = '<c-p>' 
+let g:ctrlp_cmd = 'CtrlP'
+" 设置过滤不进行查找的后缀名 
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn|pyc)$' 
+
 " for airline
 let g:airline_theme="solarized"
 let g:airline_solarized_bg='light'
@@ -86,7 +94,7 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 
 "设置切换Buffer快捷键"
 nnoremap <C-N> :bn<CR>
-nnoremap <C-P> :bp<CR>
+nnoremap <C-M> :bp<CR>
 
 
 
