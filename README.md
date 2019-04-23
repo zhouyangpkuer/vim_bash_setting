@@ -1,33 +1,17 @@
-# How to use
+# My Dot-Setting
 
-## Install Vundle: 
+## Vundle
+* `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+* In vim `:PluginInstall`
 
-`git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+## neocomplete.vim
+` sudo apt-get install vim-nox vim-gtk vim-gnome vim-athena`  
 
-## Launch Vim and run: 
+## Awesome Shortcuts: 
 
-`:PluginInstall`
-
-## How to install YCM: 
-
-### On Linux: 
-* Follow https://github.com/yangyangwithgnu/use_vim_as_ide. 
-* Add `let g:ycm_server_python_interpreter='/usr/bin/python'` to .vimrc
-
-### On MacOS: 
-* Haven't succeeded yet :)
-
-## How to install neocomplete.vim
-* make sure you have installed vim-nox, vim-gtk, vim-gnome, vim-athena packages.  
-
-## Some hits: 
-
-1. <leader>cc: comment one line or the selected text in the visual mode
-1. <leader>i: turn off/on visualized indent
-1. u: cancel, ctr + r: cancel last u
 1. Uninstall plugin through Vundle: 
     * delete the line for that plugin; 
-    * then run `:BundleClean`
+    * restart vim `:BundleClean`
 1. NerdTree: 
     * shift + c: zoom into select folder
     * u: zoom out to root folder
@@ -41,12 +25,30 @@
     * ctrl + ]: jump to definition
     * ctrl + o/t: jump back
 1. Tagbar: 
-    * F9: show tagbar
+    * F10 in visual mode: show tagbar
+    * F10 in edit mode: switch into paste mode
+1. Nerdcommenter: 
+    * ,cc: comment one line or the selected text in the visual mode
+    * ,cu: uncomment one line or the selected text in the visual mode
 1. Vim: 
+    * ctrl + w + w/h/j/k/l: jump among windows
+    * o: go to next line with edit mode
+    * u: cancel, ctr + r: cancel last u
     * :tabe xx.file: open a new tab for this file
-    * :dd: delete one line
-    * :yy: copy one line
-    * :$: move to line end
-    * :^: move to line start
-    * :w: move to word end
-    * :b: move to word start
+    * dd: delete one line
+    * yy: copy one line
+    * w: word end; b: word start
+    * ^: line header; $: line tail
+    * gg: file header; G: file tail
+1. [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en):
+    * j/k: scroll down/up the page by one line
+    * u/d: scroll down/up the page by half page
+    * shift + j/k: jump among different tabs (I highly recommend using cmd + opt + <-/->)
+    * shift + h/l: backward/forward the page
+    * **o/O: open a google search box in the current/new tab**
+    * shift + t: open a search box for all the opened tab
+    * ?: show shortcuts
+    * gg: return to the top
+    * G: jump to the bottom
+    * gi: locate to the input box of current page
+
