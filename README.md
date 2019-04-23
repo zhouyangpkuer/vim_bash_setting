@@ -50,6 +50,7 @@
     * w: word end; b: word start
     * ^: line header; $: line tail
     * gg: file header; G: file tail
+    * :bd: close current vim buffer
 1. Byobu
     * F2: new tab
     * alt + <-/->: switch tabs
