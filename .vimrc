@@ -31,7 +31,8 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'majutsushi/tagbar'
 Plugin 'Shougo/neocomplete.vim'
 Plugin 'derekwyatt/vim-scala'
-" Plugin 'Valloric/YouCompleteMe'
+Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -73,6 +74,23 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+" for airline
+let g:airline_theme="solarized"
+let g:airline_solarized_bg='light'
+
+"打开tabline功能,方便查看Buffer和切换，这个功能比较不错"
+"我还省去了minibufexpl插件，因为我习惯在1个Tab下用多个buffer"
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
+
+"设置切换Buffer快捷键"
+nnoremap <C-N> :bn<CR>
+nnoremap <C-P> :bp<CR>
+
+
+
+
 
 " for tagbar
 nmap <F10> :TagbarToggle<CR>

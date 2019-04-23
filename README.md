@@ -16,8 +16,9 @@
     * shift + c: zoom into select folder
     * u: zoom out to root folder
     * m: folder operations, ESC: exit fold operations mode
-    * i: open new vertical tab for selected file
-    * s: open new horizonal tab for selected file
+    * i: open new vertical windown for selected file
+    * s: open new horizonal window for selected file
+    * t: open new tab for selected file
     * r: refresh current directory
     * R: refresh root directory
 1. Ctags: 
@@ -30,16 +31,32 @@
 1. Nerdcommenter: 
     * ,cc: comment one line or the selected text in the visual mode
     * ,cu: uncomment one line or the selected text in the visual mode
+1. Vim-Airline:
+    * ctrl + N: next buffer
+    * ctrl + P: previous buffer
 1. Vim: 
     * ctrl + w + w/h/j/k/l: jump among windows
+    * gt and gT: tab switch 
     * o: go to next line with edit mode
-    * u: cancel, ctr + r: cancel last u
+    * u: cancel
+    * **ctr + r: cancel last u**
     * :tabe xx.file: open a new tab for this file
     * dd: delete one line
     * yy: copy one line
     * w: word end; b: word start
     * ^: line header; $: line tail
     * gg: file header; G: file tail
+1. Byobu
+    * F2: new tab
+    * alt + <-/->: switch tabs
+    * ctrl + a + %: new horizonal window
+    * shift + F2: new vertical window
+    * shift + alt + directionKeys: resize current selected windown
+    * F6: pause byobu
+    * F7: enter into view mode; q: exit view mode
+    * F8: rename current tab
+    * F9: configuration
+    * type exit: close current tab or window 
 1. [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en):
     * j/k: scroll down/up the page by one line
     * u/d: scroll down/up the page by half page
