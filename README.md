@@ -38,6 +38,25 @@
     * ctrl + p: search
     * Esc: exit search mode
     * ctrl + t: new tab for the selected file 
+1. Git:
+    * branck management:
+        * git branch branch_name: create a new branch
+        * git checkout branch_name: switch to the new branch
+        * git checkout -b branch_name: create and switch to a new branch
+        * git checkout master, git merge branch_name: merge a branch to the master
+    * handling a wrong `git add`:  
+        * git status: check added files
+        * git reset HEAD: revoke last adding
+        * git reset HEAD xxx.file: revoke last adding for xxx.file
+    * handling a wrong `git commit`: 
+        * git log: check commit_id and log
+        * revert: use new commit to rollback previous commit: 
+            * git revert HEAD: revoke last commit
+            * git revert HEAD: revoke last two commits
+            * git revert commit_id: revoke to the commit_id
+        * reset - directly delete previous commit: 
+            * git reset commit_id: revoke last commit, but the code remained modified
+            * git reset -hard commit_id: revoke last commit, and the code is restored to the last commit. 
 1. Vim: 
     * ctrl + w + w/h/j/k/l: jump among windows
     * gt and gT: tab switch 
