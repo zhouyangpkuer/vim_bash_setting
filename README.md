@@ -81,6 +81,9 @@
     * F8: rename current tab
     * F9: configuration
     * type exit: close current tab or window 
+1. Linux commands:
+    * tail -f xxx.file: monitor the file change
+    * watch -d -n 0.1 cmd: periodically execute cmd (here the period is 0.1s)
 1. [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en):
     * j/k: scroll down/up the page by one line
     * u/d: scroll down/up the page by half page
