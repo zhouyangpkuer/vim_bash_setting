@@ -5,7 +5,7 @@
 * In vim `:PluginInstall`
 
 ## neocomplete.vim
-` sudo apt-get install vim-nox vim-gtk vim-gnome vim-athena`  
+` sudo apt-get -y install vim-nox vim-gtk vim-gnome vim-athena`  
 
 ## Awesome Shortcuts: 
 
