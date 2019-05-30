@@ -44,6 +44,7 @@
         * git checkout branch_name: switch to the new branch
         * git checkout -b branch_name: create and switch to a new branch
         * git checkout master, git merge branch_name: merge a branch to the master
+        * git checkout --track origin/newsletter: git checkout for Remote Branches
     * handling a wrong `git add`:  
         * git status: check added files
         * git reset HEAD: revoke last adding
