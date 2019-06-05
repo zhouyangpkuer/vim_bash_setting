@@ -58,6 +58,14 @@
         * reset - directly delete previous commit: 
             * git reset commit_id: revoke last commit, but the code remained modified
             * git reset -hard commit_id: revoke last commit, and the code is restored to the last commit. 
+    * change remote url:
+        * git remote -v: View existing remotes
+            * origin  https://github.com/user/repo.git (fetch)
+            * origin  https://github.com/user/repo.git (push)
+        * git remote set-url origin https://github.com/user/repo2.git: Change the 'origin' remote's URL
+        * git remote -v: Verify new remote URL
+            * origin  https://github.com/user/repo2.git (fetch)
+            * origin  https://github.com/user/repo2.git (push)
 1. Vim: 
     * ctrl + w + w/h/j/k/l: jump among windows
     * gt and gT: tab switch 
