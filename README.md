@@ -109,3 +109,5 @@
 1. Chrome:
     * cmd + 1~8: switch to the leftmost 1~8 tab
     * cmd + 9: switch to the rightmost tab
+1. Python:
+    * python -m SimpleHTTPServer 8080: Set up a web server
