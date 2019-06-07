@@ -93,6 +93,8 @@
 1. Linux commands:
     * tail -f xxx.file: monitor the file change
     * watch -d -n 0.1 cmd: periodically execute cmd (here the period is 0.1s)
+    * sudo du -h --max-depth=1 | sort -hr: show the sizse of sub-directories in current directory.
+    * df -h: show the dist usage
 1. [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en):
     * j/k: scroll down/up the page by one line
     * u/d: scroll down/up the page by half page
@@ -104,4 +106,6 @@
     * gg: return to the top
     * G: jump to the bottom
     * gi: locate to the input box of current page
-
+1. Chrome:
+    * cmd + 1~8: switch to the leftmost 1~8 tab
+    * cmd + 9: switch to the rightmost tab
