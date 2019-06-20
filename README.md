@@ -1,5 +1,8 @@
 # My Dot-Setting
 
+## Never use `sudo rm -rf` in script!!!
+Instead, use `sudo mv -r xxxx ~/trash`.
+
 ## Vundle
 * `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 * In vim `:PluginInstall`
