@@ -70,6 +70,9 @@ Error handling: sudo chown -R yangz:yangz /home/yangz/.cache/neocomplete/
         * git remote -v: Verify new remote URL
             * origin  https://github.com/user/repo2.git (fetch)
             * origin  https://github.com/user/repo2.git (push)
+    * forcely overwrite local changes: 
+        * git reset --hard HEAD
+        * git pull
 1. Vim: 
     * ctrl + w + w/h/j/k/l: jump among windows
     * gt and gT: tab switch 
