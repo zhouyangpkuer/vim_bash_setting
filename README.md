@@ -9,6 +9,7 @@ Instead, use `sudo mv xxxx ~/trash`.
 
 ## neocomplete.vim
 ` sudo apt-get -y install vim-nox vim-gtk vim-gnome vim-athena`  
+Error handling: sudo chown -R yangz:yangz /home/yangz/.cache/neocomplete/
 
 ## Awesome Shortcuts: 
 
