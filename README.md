@@ -73,6 +73,13 @@ Error handling: sudo chown -R yangz:yangz /home/yangz/.cache/neocomplete/
     * forcely overwrite local changes: 
         * git reset --hard HEAD
         * git pull
+    * During pulling, if you what to remove all local changes from your working copy, simply stash them:
+        * git stash save --keep-index
+    * If you don't need them anymore, you now can drop that stash:
+        * git stash drop
+    * Another way to remove local changes: 
+        * git checkout HEAD^ file/to/overwrite
+        * git pull
 1. Vim: 
     * ctrl + w + w/h/j/k/l: jump among windows
     * gt and gT: tab switch 
