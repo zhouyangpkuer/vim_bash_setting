@@ -42,6 +42,8 @@ Error handling: sudo chown -R yangz:yangz /home/yangz/.cache/neocomplete/
     * ctrl + p: search
     * Esc: exit search mode
     * ctrl + t: new tab for the selected file 
+1. gDoc:
+    * shift + cmd + x: strikethrough
 1. Git:
     * branck management:
         * git branch branch_name: create a new branch
