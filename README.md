@@ -127,3 +127,4 @@ Error handling: sudo chown -R yangz:yangz /home/yangz/.cache/neocomplete/
     * cmd + 9: switch to the rightmost tab
 1. Python:
     * python -m SimpleHTTPServer 8080: Set up a web server
+    * python3 -m http.server 8080
