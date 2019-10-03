@@ -126,5 +126,7 @@ Error handling: sudo chown -R yangz:yangz /home/yangz/.cache/neocomplete/
     * cmd + 1~8: switch to the leftmost 1~8 tab
     * cmd + 9: switch to the rightmost tab
 1. Python:
-    * python -m SimpleHTTPServer 8080: Set up a web server
+    * python -m SimpleHTTPServer 8080: Set up a web server on 0.0.0.0 (will enable access to the server on all network interfaces, not just localhost)
     * python3 -m http.server 8080
+1. Jupyter Notebook
+    * jupyter notebook --ip 0.0.0.0 --port 8888: enable access to the server on all network interfaces, not just localhost. 
