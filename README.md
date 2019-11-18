@@ -13,6 +13,8 @@ Error handling: sudo chown -R yangz:yangz /home/yangz/.cache/neocomplete/
 
 ## Awesome Shortcuts: 
 
+1. MacOS: 
+    * cmd + option + h: hide all applications except for the current one. 
 1. Uninstall plugin through Vundle: 
     * delete the line for that plugin; 
     * restart vim `:BundleClean`
