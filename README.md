@@ -132,3 +132,15 @@ Error handling: sudo chown -R yangz:yangz /home/yangz/.cache/neocomplete/
     * python3 -m http.server 8080
 1. Jupyter Notebook
     * jupyter notebook --ip 0.0.0.0 --port 8888: enable access to the server on all network interfaces, not just localhost. 
+1. Vscode:
+    * keymapshortcut in preference: 
+        * ctrl + ]: go to defination
+        * ctrl + [: go back
+        * ctrl + o: go last
+1. Permission setting: 
+    * ssh: https://gist.github.com/grenade/6318301
+        * chmod 700 ~/.ssh
+        * chmod 644 ~/.ssh/authorized_keys
+        * chmod 600 ~/.ssh/id_rsa
+        * chmod 644 ~/.ssh/id_rsa.pub
+
