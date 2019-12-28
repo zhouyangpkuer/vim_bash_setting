@@ -66,7 +66,9 @@ Error handling: sudo chown -R yangz:yangz /home/yangz/.cache/neocomplete/
         * reset - directly delete previous commit: 
             * git reset commit_id: revoke last commit, but the code remained modified
             * git reset -hard commit_id: revoke last commit, and the code is restored to the last commit. 
-    * change remote url:
+   * setup remote url:
+        * git remote add origin url
+   * change remote url:
         * git remote -v: View existing remotes
             * origin  https://github.com/user/repo.git (fetch)
             * origin  https://github.com/user/repo.git (push)
