@@ -4,7 +4,7 @@ sudo apt-get update
 sudo apt -y install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update
-sudo apt -y install python3.7
+sudo apt -y install python3.7 htop
 
 sudo apt -y install docker.io
 sudo usermod -a -G docker $USER
