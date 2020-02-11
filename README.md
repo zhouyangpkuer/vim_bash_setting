@@ -145,4 +145,5 @@ Error handling: sudo chown -R yangz:yangz /home/yangz/.cache/neocomplete/
         * chmod 644 ~/.ssh/authorized_keys
         * chmod 600 ~/.ssh/id_rsa
         * chmod 644 ~/.ssh/id_rsa.pub
-
+1. zsh:
+    * https://medium.com/@oldwestaction/beautifying-your-terminal-with-zsh-prezto-powerlevel9k-9e8de2023046
