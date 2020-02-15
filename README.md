@@ -154,7 +154,7 @@ Error handling: sudo chown -R yangz:yangz /home/yangz/.cache/neocomplete/
         sudo apt-get install fonts-powerline
         ```
     * Thorough tutorial about zsh configuration: https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/
-    * font rendering issues: 
+    * font rendering issues on iterm2: 
         ```
         git clone https://github.com/powerline/fonts (clone it anywhere, You can remove cloned dir after step-4)
         cd fonts
@@ -162,6 +162,8 @@ Error handling: sudo chown -R yangz:yangz /home/yangz/.cache/neocomplete/
         ```
         * then Open iTerm2->Preferences->Profiles->Text->Change Font-> Meslo LG S DZ Regular for Powerline
         * or Just select Use built-in Powerline glyphs and use Inconsolata for PowerPoint font.
+    * font rendering issues on vscode integrated terminal:
+        * "terminal.integrated.fontFamily": "Source Code Pro for Powerline"
     
     * install zsh with prezto: https://medium.com/@oldwestaction/beautifying-your-terminal-with-zsh-prezto-powerlevel9k-9e8de2023046
         * the configuration file is ~/.zpreztorc
