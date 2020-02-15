@@ -13,5 +13,9 @@ export TERM=screen-256color-bce
 # For shell prompt setting
 # export PS1="[\u@\h:\W ] $ "
 
+export TERM=screen-256color-bce
 # For Byoby running normally
 export BYOBU_PYTHON=/usr/bin/python
+export HOMEBREW_NO_AUTO_UPDATE=1
+alias ll='ls -al'
+source ~/anaconda3/bin/activate 

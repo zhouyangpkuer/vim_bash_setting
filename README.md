@@ -146,4 +146,38 @@ Error handling: sudo chown -R yangz:yangz /home/yangz/.cache/neocomplete/
         * chmod 600 ~/.ssh/id_rsa
         * chmod 644 ~/.ssh/id_rsa.pub
 1. zsh:
-    * https://medium.com/@oldwestaction/beautifying-your-terminal-with-zsh-prezto-powerlevel9k-9e8de2023046
+    * **[suggested]** install zsh with onmyzsh: http://www.boekhoff.info/how-to-install-zsh-and-oh-my-zsh/
+        * The configuration file is ~/.zshrc
+        ```bash
+        sudo apt-get install zsh curl git # install zsh
+        sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" # install ohmyzsh configuration management framework
+        sudo apt-get install fonts-powerline
+        ```
+    * Thorough tutorial about zsh configuration: https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/
+    * font rendering issues: 
+        ```
+        git clone https://github.com/powerline/fonts (clone it anywhere, You can remove cloned dir after step-4)
+        cd fonts
+        ./install.sh
+        ```
+        * then Open iTerm2->Preferences->Profiles->Text->Change Font-> Meslo LG S DZ Regular for Powerline
+        * or Just select Use built-in Powerline glyphs and use Inconsolata for PowerPoint font.
+    
+    * install zsh with prezto: https://medium.com/@oldwestaction/beautifying-your-terminal-with-zsh-prezto-powerlevel9k-9e8de2023046
+        * the configuration file is ~/.zpreztorc
+        ```bash
+        sudo apt-get install zsh curl git # install zsh
+        rm -f ~/.zshrc
+        git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+        setopt EXTENDED_GLOB
+        for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
+        ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
+        done
+        chsh -s $(which zsh)
+        ```
+1. conda: 
+    * conda env list
+    * conda env remove -n ENV_NAME
+    * conda deactivate: exit current env
+    * conda create --name py2 python=2.7: Create a Python 2 environment named py2, install Python 2.7
+    * conda activate ENV_NAME: enter env ENV_NAME
