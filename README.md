@@ -164,7 +164,10 @@ Error handling: sudo chown -R yangz:yangz /home/yangz/.cache/neocomplete/
         * or Just select Use built-in Powerline glyphs and use Inconsolata for PowerPoint font.
     * font rendering issues on vscode integrated terminal:
         * "terminal.integrated.fontFamily": "Source Code Pro for Powerline"
-    
+    * change the default shell to zsh: 
+        * sudo vi /etc/passwd
+        * Find the line with your usernam, and replace bash with zsh
+
     * install zsh with prezto: https://medium.com/@oldwestaction/beautifying-your-terminal-with-zsh-prezto-powerlevel9k-9e8de2023046
         * the configuration file is ~/.zpreztorc
         ```bash

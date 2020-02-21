@@ -4,7 +4,7 @@
   #source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 #fi
 
-export ZSH="/home/yangz/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
