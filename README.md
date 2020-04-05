@@ -132,6 +132,22 @@ Error handling: sudo chown -R yangz:yangz /home/yangz/.cache/neocomplete/
 1. Python:
     * python -m SimpleHTTPServer 8080: Set up a web server on 0.0.0.0 (will enable access to the server on all network interfaces, not just localhost)
     * python3 -m http.server 8080
+    * python indexing:
+        ```
+        import numpy as np
+
+        vals = np.random.random((3,4)).astype(float)
+        mean = np.mean(vals, axis=1)
+        for j in range(vals.shape[1]):
+            # here, vals[:, j] is just a 1D np array. 
+            vals[:, j] -= mean
+
+        keys = np.random.random(4)
+        # make it in decending order
+        sort_index = keys.argsort()[::-1]
+        vals = vals[:, sort_index]
+        keys = keys[sort_index]
+        ```
 1. Jupyter Notebook
     * jupyter notebook --ip 0.0.0.0 --port 8888: enable access to the server on all network interfaces, not just localhost. 
 1. Vscode:
