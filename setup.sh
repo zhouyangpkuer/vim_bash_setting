@@ -2,7 +2,7 @@
 
 sudo apt-get update
 sudo apt -y install software-properties-common
-sudo add-apt-repository ppa:deadsnakes/ppa
+sudo -y add-apt-repository ppa:deadsnakes/ppa
 sudo apt update
 sudo apt -y install python3.7 htop
 
@@ -24,4 +24,4 @@ echo "please relogin to enable docker"
 # Resize /dev/sda1:
 # sudo swapoff -a
 # sudo parted /dev/sda; rm 3; resizepart 1; Yes; 900000; quit
-# sudo resize2fs /dev/sda1 
+# sudo resize2fs /dev/sda1
