@@ -14,7 +14,7 @@ sudo apt -y install vim-nox vim-gtk vim-gnome vim-athena
 
 cp .vimrc ~/
 sudo apt -y install byobu
-
+sudo apt -y install expect-dev
 sudo apt -y install python-pip
 
 echo "export TERM=screen-256color-bce" >> ~/.bashrc
