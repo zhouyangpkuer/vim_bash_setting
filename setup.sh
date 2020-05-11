@@ -1,21 +1,21 @@
 #!/bin/bash
 
 sudo apt-get update
-sudo apt -y install software-properties-common
-sudo -y add-apt-repository ppa:deadsnakes/ppa
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa -y
 sudo apt update
-sudo apt -y install python3.7 htop
+sudo apt install python3.7 htop -y
 
-sudo apt -y install docker.io
+sudo apt install docker.io -y
 sudo usermod -a -G docker $USER
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-sudo apt -y install vim-nox vim-gtk vim-gnome vim-athena
+sudo apt install vim-nox vim-gtk vim-gnome vim-athena -y
 
 cp .vimrc ~/
-sudo apt -y install byobu
-sudo apt -y install expect-dev
-sudo apt -y install python-pip
+sudo apt install byobu -y
+sudo apt install expect-dev expect -y
+sudo apt install python-pip -y
 
 echo "export TERM=screen-256color-bce" >> ~/.bashrc
 echo "please do: source ~/.bashrc"
