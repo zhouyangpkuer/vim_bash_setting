@@ -15,7 +15,7 @@ sudo apt install vim-nox vim-gtk vim-gnome vim-athena -y
 cp .vimrc ~/
 sudo apt install byobu -y
 sudo apt install expect-dev expect -y
-sudo apt install python-pip -y
+sudo apt install python-pip texlive-full -y
 
 echo "export TERM=screen-256color-bce" >> ~/.bashrc
 echo "please do: source ~/.bashrc"
