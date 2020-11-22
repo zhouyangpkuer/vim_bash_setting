@@ -68,8 +68,6 @@ Error handling: sudo chown -R yangz:yangz /home/yangz/.cache/neocomplete/
             * git reset -hard commit_id: revoke last commit, and the code is restored to the last commit. 
    * setup remote url:
         * git remote add origin url
-   * remove files completely from commit histroy:
-        * git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch path_to_file" HEAD 
    * change remote url:
         * git remote -v: View existing remotes
             * origin  https://github.com/user/repo.git (fetch)
@@ -88,6 +86,12 @@ Error handling: sudo chown -R yangz:yangz /home/yangz/.cache/neocomplete/
     * Another way to remove local changes: 
         * git checkout HEAD^ file/to/overwrite
         * git pull
+   * remove files completely from commit histroy:
+        * git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch path_to_file" HEAD 
+   * git lfs
+        * git lfs track giant.file
+        * git add .gitattributes
+        * git add giant.file
 1. Vim: 
     * ctrl + w + w/h/j/k/l: jump among windows
     * gt and gT: tab switch 
